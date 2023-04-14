@@ -45,7 +45,7 @@ export function Browser() {
           </p>
           <div className="w-full flex flex-wrap items-center justify-center gap-6 mt-3">
             <a
-              href="https://github.com/Loopy-Learn/loopy-web"
+              href="https://github.com/LoopyGO/loopy-web"
               target="_blank"
               draggable={false}
               onPointerDown={() => play()}
