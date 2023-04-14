@@ -9,7 +9,7 @@ export function Browser() {
 
   return (
     <>
-      <div className="relative z-20 flex w-full h-full flex-col overflow-scroll bg-gradient-to-b from-base-6/20 backdrop-blur-md to-base-1/10 border border-base-4/50 rounded-xl browser shadow-[0_8px_32px_4px] shadow-black/40">
+      <div className="relative z-20 flex w-full h-full flex-col overflow-scroll bg-gradient-to-b from-base-6/20 backdrop-blur-md to-base-1/10 border border-base-4/50 rounded-xl browser">
         <div className="flex flex-col gap-10 max-md:gap-5 w-full h-full justify-center items-center px-24 max-md:p-8">
           <div className="flex w-full items-center justify-between flex-wrap gap-8">
             <div>
