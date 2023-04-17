@@ -1,6 +1,7 @@
 'use client'
 import useSound from 'use-sound'
 import clickSFX from '../../sounds/toggle-theme.mp3'
+import Link from 'next/link'
 
 export function Browser() {
   const [play] = useSound(clickSFX, {
@@ -74,6 +75,15 @@ export function Browser() {
             >
               📺 Twitch
             </a>
+            <Link
+              href="/collaborators"
+              draggable={false}
+              onPointerDown={() => play()}
+              className="md:max-w-max w-full grow border border-base-3 bg-base-1/50 text-base-11 hover:text-base-12 hover:bg-base-4 px-5 py-2 rounded-lg duration-200 ease-out active:scale-95 max-md:w-full max-md:text-center max-md:py-3"
+              rel="noreferrer"
+            >
+              🥳 Colaboradores
+            </Link>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="container p-6 mx-auto w-full flex items-center justify-center h-full">
-      <div className="max-w-4xl w-full h-full md:h-[460px] relative">
+      <div className="max-w-4xl w-full h-full md:h-[560px] relative">
         <Browser />
         <Link
           draggable={false}

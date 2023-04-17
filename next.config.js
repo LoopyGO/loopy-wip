@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    domains: ['github.com'],
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.(ogg|mp3|wav|mpe?g)$/i,
