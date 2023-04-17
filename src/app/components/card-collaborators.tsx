@@ -45,16 +45,18 @@ export function CardCollaborators({
         >
           <GitHubLogoIcon className="w-5 h-5" />
         </a>
-        <a
-          href={`https://twitter.com/${twitterUsername}`}
-          target="_blank"
-          draggable={false}
-          onPointerDown={() => play()}
-          className=" md:max-w-max w-full text-[#00acee] hover:text-[#00acee] hover:bg-base-4 p-3 rounded-lg duration-200 ease-out active:scale-95 max-md:w-full max-md:text-center max-md:py-3 "
-          rel="noreferrer"
-        >
-          <TwitterIcon className="w-5 h-5" />
-        </a>
+        {twitterUsername && (
+          <a
+            href={`https://twitter.com/${twitterUsername}`}
+            target="_blank"
+            draggable={false}
+            onPointerDown={() => play()}
+            className=" md:max-w-max w-full text-[#00acee] hover:text-[#00acee] hover:bg-base-4 p-3 rounded-lg duration-200 ease-out active:scale-95 max-md:w-full max-md:text-center max-md:py-3 "
+            rel="noreferrer"
+          >
+            <TwitterIcon className="w-5 h-5" />
+          </a>
+        )}
       </div>
     </div>
   )
